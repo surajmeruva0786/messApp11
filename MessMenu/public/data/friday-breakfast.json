@@ -13,7 +13,7 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "e9662796-fd0f-44d9-a701-443c22ee1e18"
+    "id": "795cbb19-e713-4d5e-b401-665e62ebb61f"
   },
   {
     "name": "Plain Curd",
@@ -29,7 +29,7 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "6bec8305-ec10-46d8-b275-38da376517b1"
+    "id": "6bb3772d-af3c-4823-b291-d8adcaf01895"
   },
   {
     "name": "Chutney",
@@ -45,7 +45,7 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "ddd914d7-a8db-453c-8c40-d7248da5e9b9"
+    "id": "2624a9f6-fbd7-48da-aaa9-aeeffcddedbf"
   },
   {
     "name": "Eggs (2)/Fruit",
@@ -61,6 +61,6 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "0b190426-585c-4ab9-b833-09d4070b26d0"
+    "id": "23320359-5a8c-41af-ba0b-f52cfb698ecc"
   }
 ]

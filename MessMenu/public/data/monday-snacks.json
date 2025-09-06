@@ -13,7 +13,7 @@
     "dayOfWeek": "monday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "4bf3e472-cd7f-403e-9447-9803bdce989b"
+    "id": "3d6477db-3685-4e91-b1ee-47c3af1dc611"
   },
   {
     "name": "Red Chutney",
@@ -29,7 +29,7 @@
     "dayOfWeek": "monday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "95472b17-b593-4e51-9f4b-537fe2f815ba"
+    "id": "47abf291-d239-4974-90e7-688569cfb9f4"
   },
   {
     "name": "Green Chutney",
@@ -45,6 +45,6 @@
     "dayOfWeek": "monday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "43b1cc16-d64c-4bf3-92d1-befe89342ded"
+    "id": "3a870438-060a-4e63-9337-9ec920cf803b"
   }
 ]

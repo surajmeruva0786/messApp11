@@ -13,7 +13,7 @@
     "dayOfWeek": "saturday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "47f9cc53-7020-45fe-a0ee-39b716236709"
+    "id": "57ea6c14-e99f-4fb5-bdd1-9169775a3d06"
   },
   {
     "name": "Karela Chana",
@@ -29,7 +29,7 @@
     "dayOfWeek": "saturday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "84ffe115-1bc7-43fe-8973-cc97e01b91a2"
+    "id": "5468942b-d5e4-40fd-afad-84be614ce5e6"
   },
   {
     "name": "Arhar Dal",
@@ -45,7 +45,7 @@
     "dayOfWeek": "saturday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "7f4df68e-4f95-414d-a6b1-e21cb2780b13"
+    "id": "0c0f746f-4171-40ee-8217-b226e09ec1ec"
   },
   {
     "name": "Basmati Rice",
@@ -61,7 +61,7 @@
     "dayOfWeek": "saturday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "dde54ef8-f485-44d5-a7e7-d43294e73d35"
+    "id": "b9df887c-3645-4097-b19c-3f604ac6e8f8"
   },
   {
     "name": "Roti",
@@ -77,7 +77,7 @@
     "dayOfWeek": "saturday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "4259a0a5-5117-4e78-a2dd-f177e43ec8d6"
+    "id": "77ef0ea8-6d44-4c81-8de5-59897491ac68"
   },
   {
     "name": "Gulab Jamun",
@@ -93,6 +93,6 @@
     "dayOfWeek": "saturday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "5eca61e2-94a6-4d58-9709-de73136cb2f4"
+    "id": "f611df90-c720-42c7-9121-2851e69e7ad9"
   }
 ]

@@ -13,7 +13,7 @@
     "dayOfWeek": "monday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "6b6d21a5-aa60-4829-808c-c72a14cc39a5"
+    "id": "4ce8f9cf-f059-4230-868b-24fa2d3d5306"
   },
   {
     "name": "Bhindi Masala (70-30)",
@@ -29,7 +29,7 @@
     "dayOfWeek": "monday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "45b07f13-0566-4943-a2d2-3dcd9796b380"
+    "id": "48f39bcc-1913-4a44-8c86-3129d890b409"
   },
   {
     "name": "Tadka Arhar Dal",
@@ -45,7 +45,7 @@
     "dayOfWeek": "monday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "5cbd39fa-5f3c-424e-a7c6-26dad4a2dc8c"
+    "id": "d763a826-eaf1-4661-aa7f-631ca86a07cd"
   },
   {
     "name": "Jeera Rice",
@@ -61,7 +61,7 @@
     "dayOfWeek": "monday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "a4e2c947-7509-418c-9fba-33128f83993c"
+    "id": "38b3dcca-0393-4e15-b627-78bba3b0d0b7"
   },
   {
     "name": "Roti",
@@ -77,7 +77,7 @@
     "dayOfWeek": "monday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "d2b7fd48-3bbe-42e3-8bb2-7125ff5c28e4"
+    "id": "2567547f-b63c-4455-8abc-1bdd98d25efd"
   },
   {
     "name": "Nimbu Paani",
@@ -93,6 +93,6 @@
     "dayOfWeek": "monday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "74025bff-f2d7-4194-8e59-3231b10a5fee"
+    "id": "6f84863c-96a3-4a46-a565-4de5cfd5ff6a"
   }
 ]

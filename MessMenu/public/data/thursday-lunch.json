@@ -13,7 +13,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "a34f4c94-1a90-455e-abe8-addc1b6f7a08"
+    "id": "3fa5b368-066f-41ef-8781-8a884cc8648e"
   },
   {
     "name": "Corn Palak",
@@ -29,7 +29,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "3b9d82c6-1193-487f-9cc1-47edcc9f87d6"
+    "id": "ac36a572-3f34-4feb-8a4d-a327232a31d7"
   },
   {
     "name": "Arhar Dal + Sambar",
@@ -45,7 +45,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "a17724cb-66ce-4121-8422-dc6ad19224bc"
+    "id": "69716ded-604d-4d08-b4ee-60f1370400e8"
   },
   {
     "name": "Plain Rice",
@@ -61,7 +61,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "dcc6a5e9-29ed-4e90-b615-59138e1da00b"
+    "id": "187341ab-14b6-44cf-80d0-1b89a3c2fb7d"
   },
   {
     "name": "Roti",
@@ -77,7 +77,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "212854d2-8ac0-4af8-989d-4f18983575fb"
+    "id": "f5d0d499-a601-4e46-97a1-6a7f5268f5d3"
   },
   {
     "name": "Aam Panna",
@@ -93,6 +93,6 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "3e7e850b-970a-454c-9abc-0f39290d27bd"
+    "id": "7c7d916d-f86b-49ce-b794-a3e5c588fcc8"
   }
 ]

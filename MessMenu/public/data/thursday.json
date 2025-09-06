@@ -13,7 +13,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "c920a2d0-8d43-488d-b58d-3503f666280e"
+    "id": "fafcbeea-142d-4fbc-9cf4-dd031a66ea08"
   },
   {
     "name": "Sambar",
@@ -29,7 +29,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "bfef8192-ecfa-4f87-b22a-cf23c0ed11b8"
+    "id": "960e9d1c-5213-44a0-b10c-e80f44a2eb30"
   },
   {
     "name": "Chutney",
@@ -45,7 +45,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "93b8a647-45a3-4fe4-ac5f-c22398416d03"
+    "id": "5e6e7cd3-01c4-4cdb-bd20-002e68916d15"
   },
   {
     "name": "Sprouts",
@@ -61,7 +61,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "6c4c8111-b98d-4593-8ee6-d4df80702115"
+    "id": "2b0d77cc-30c1-4ed0-9cbe-ea63dc204d2d"
   },
   {
     "name": "Soya Chilli",
@@ -77,7 +77,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "a34f4c94-1a90-455e-abe8-addc1b6f7a08"
+    "id": "3fa5b368-066f-41ef-8781-8a884cc8648e"
   },
   {
     "name": "Corn Palak",
@@ -93,7 +93,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "3b9d82c6-1193-487f-9cc1-47edcc9f87d6"
+    "id": "ac36a572-3f34-4feb-8a4d-a327232a31d7"
   },
   {
     "name": "Arhar Dal + Sambar",
@@ -109,7 +109,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "a17724cb-66ce-4121-8422-dc6ad19224bc"
+    "id": "69716ded-604d-4d08-b4ee-60f1370400e8"
   },
   {
     "name": "Plain Rice",
@@ -125,7 +125,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "dcc6a5e9-29ed-4e90-b615-59138e1da00b"
+    "id": "187341ab-14b6-44cf-80d0-1b89a3c2fb7d"
   },
   {
     "name": "Roti",
@@ -141,7 +141,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "212854d2-8ac0-4af8-989d-4f18983575fb"
+    "id": "f5d0d499-a601-4e46-97a1-6a7f5268f5d3"
   },
   {
     "name": "Aam Panna",
@@ -157,7 +157,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "3e7e850b-970a-454c-9abc-0f39290d27bd"
+    "id": "7c7d916d-f86b-49ce-b794-a3e5c588fcc8"
   },
   {
     "name": "Gupchup",
@@ -173,7 +173,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "2ae291ad-2efa-473e-beb0-112a6972cb6f"
+    "id": "63187020-1ebf-49c0-add2-a8501587dc09"
   },
   {
     "name": "Red Chutney",
@@ -189,7 +189,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "8b748697-55ba-4fa8-9aec-d159728c6600"
+    "id": "ab879907-e54d-4ca3-a307-c92031a4cc42"
   },
   {
     "name": "Green Chutney",
@@ -205,7 +205,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "4bd3d74d-97a7-496e-9dd1-34fd98765151"
+    "id": "657292a5-dd27-46e9-8c1b-a587d9fb9d17"
   },
   {
     "name": "Chole Curry",
@@ -221,7 +221,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "bb5faba7-f076-47b8-8afe-a6838e8f9a2f"
+    "id": "48ca546c-1e4d-44cb-8982-b2d48c489a94"
   },
   {
     "name": "Tamatar Chutney",
@@ -237,7 +237,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "256412d1-f32c-49bb-b1b7-9aa97fdc586e"
+    "id": "a2a8f003-cc2f-448a-99f5-74d7bbe939f3"
   },
   {
     "name": "Arhar Dal",
@@ -253,7 +253,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "8681cc8e-e80c-47a3-a598-44dcde962202"
+    "id": "125ed213-d2a3-44a6-8071-cf28e4b05862"
   },
   {
     "name": "Jeera Rice",
@@ -269,7 +269,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "52223699-8a74-4aab-be87-c19ed7da10d3"
+    "id": "52328d6d-731f-4c64-aabc-ec3d76c84367"
   },
   {
     "name": "Bhature/Masala Puri",
@@ -285,7 +285,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "d6363f1b-640f-43eb-a679-b6c06ed0ae48"
+    "id": "29e4472c-f436-4144-9543-b179b35a6748"
   },
   {
     "name": "Gajar Ka Halwa",
@@ -301,6 +301,6 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "717281f7-7246-46c2-be6e-9bc3768b976d"
+    "id": "ae32c6ef-fd76-4ac2-be94-fc86e3a3bb87"
   }
 ]

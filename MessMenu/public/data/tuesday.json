@@ -13,7 +13,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "14cf2824-fc9d-4a35-8c09-3565b8e1885c"
+    "id": "f6a853a7-fccb-425b-ac87-e9353a2fee80"
   },
   {
     "name": "Sambhar",
@@ -29,7 +29,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "47cb4284-395f-4c36-bc4b-73556622b277"
+    "id": "52611baa-fae5-4290-bfe5-19e72086d928"
   },
   {
     "name": "Naryal Chutney",
@@ -45,7 +45,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "b87cb0f8-3b53-4e7c-9d89-1ec052e0d088"
+    "id": "624dfc86-e373-42cb-90e9-3a8067321cba"
   },
   {
     "name": "Sprouts",
@@ -61,7 +61,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "1a5535a6-40fa-4e62-9b93-11c887397fc3"
+    "id": "80d9f14b-1d8f-4399-9ff1-2b9738b7b790"
   },
   {
     "name": "Rajma",
@@ -77,7 +77,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "3fa70efc-b378-4c9e-b0ed-7225cbf92bf9"
+    "id": "210b3d93-1d13-44ee-a1d9-838601ec3e10"
   },
   {
     "name": "Gobhi (80% - 20%)",
@@ -93,7 +93,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "5327bb34-6150-454c-a5d1-bdfb5e7edb80"
+    "id": "ccea2667-7a3d-494e-892a-557a8732fbb0"
   },
   {
     "name": "Tadka Arhar Dal",
@@ -109,7 +109,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "ecd05597-f704-4ad5-bd27-db0c7cffe22a"
+    "id": "364f7955-9807-45ea-8ab0-d195da9a7e5c"
   },
   {
     "name": "Plain Rice",
@@ -125,7 +125,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "38ed332e-6115-457f-a617-dc8cf7a01b74"
+    "id": "bf95a626-1132-4255-a0ec-cd511306238c"
   },
   {
     "name": "Roti",
@@ -141,7 +141,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "30cf9157-a9d8-40aa-b266-de3353295dd6"
+    "id": "910b5838-9d3e-436a-9544-fe2589b8b22b"
   },
   {
     "name": "Aam Panna",
@@ -157,7 +157,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "baea7803-be88-4f11-b0f3-1c4a327f314e"
+    "id": "1a4a1d1c-3368-429c-b017-6cfcb855fda2"
   },
   {
     "name": "Onion Pakode",
@@ -173,7 +173,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "2d96b35e-bafd-4a2c-bffc-3798f5a5c6d0"
+    "id": "2c32d53e-8840-4014-8354-84cdfe96b254"
   },
   {
     "name": "Red Chutney",
@@ -189,7 +189,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "ef7efe0f-d381-4f25-b0f1-b1a0467c43cf"
+    "id": "2c2de61d-69b7-494a-b13c-cfcd6b624409"
   },
   {
     "name": "Green Chutney",
@@ -205,7 +205,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "5467dfcd-f1fa-4b30-896d-ea1bf0ef61fa"
+    "id": "a5c0a20d-bcc9-4983-b59a-ed52d818bb6e"
   },
   {
     "name": "Parval Gravy",
@@ -221,7 +221,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "9be11f9e-cc14-4eb0-9404-86bdf8f8b637"
+    "id": "10295db9-6054-4360-80f9-0fdf14b16b73"
   },
   {
     "name": "Soya Chunks",
@@ -237,7 +237,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "8e0e49db-06bd-4217-b095-cfdb1670b449"
+    "id": "0496c2c3-ae63-480a-b168-3b8bf61017e2"
   },
   {
     "name": "Arhar Dal",
@@ -253,7 +253,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "df10cb0d-b381-46a4-a7de-8efb20f45d06"
+    "id": "e3c6f38d-cc2a-4d1b-be5f-afb263d46a85"
   },
   {
     "name": "Plain Rice",
@@ -269,7 +269,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "ee4baebc-257e-4a29-8e18-d7be6cd95a31"
+    "id": "95d5b36e-e1bd-4176-84cb-c7f0bbd20e19"
   },
   {
     "name": "Roti",
@@ -285,7 +285,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "70981c6a-f798-4361-9825-57b9afa3296e"
+    "id": "86cdb8d9-ec5c-411c-ba9a-3c02769d85a8"
   },
   {
     "name": "Kheer",
@@ -301,6 +301,6 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "41c78f92-de2b-4ea8-a863-6424d296cdae"
+    "id": "ed382120-8d40-4f1a-9434-787d2cfc38bf"
   }
 ]

@@ -13,7 +13,7 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "e9662796-fd0f-44d9-a701-443c22ee1e18"
+    "id": "795cbb19-e713-4d5e-b401-665e62ebb61f"
   },
   {
     "name": "Plain Curd",
@@ -29,7 +29,7 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "6bec8305-ec10-46d8-b275-38da376517b1"
+    "id": "6bb3772d-af3c-4823-b291-d8adcaf01895"
   },
   {
     "name": "Chutney",
@@ -45,7 +45,7 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "ddd914d7-a8db-453c-8c40-d7248da5e9b9"
+    "id": "2624a9f6-fbd7-48da-aaa9-aeeffcddedbf"
   },
   {
     "name": "Eggs (2)/Fruit",
@@ -61,7 +61,7 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "0b190426-585c-4ab9-b833-09d4070b26d0"
+    "id": "23320359-5a8c-41af-ba0b-f52cfb698ecc"
   },
   {
     "name": "Aloo Fry",
@@ -77,7 +77,7 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "b8f0038d-3357-416e-86f9-4a8bcdf6e2ff"
+    "id": "dd364296-a830-4aea-a124-032648f95b44"
   },
   {
     "name": "Parval Gravy",
@@ -93,7 +93,7 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "460128bc-0291-4669-9ba7-a08465d0a439"
+    "id": "bd58ad44-7e40-4bc7-9438-e0ef750132b5"
   },
   {
     "name": "Tadka Dal Fry",
@@ -109,7 +109,7 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "835fd3d9-01d8-4d8c-adda-2e6a8c3e070f"
+    "id": "e1610af6-bb7c-4256-ab25-54b6e4c1d6d4"
   },
   {
     "name": "Rice",
@@ -125,7 +125,7 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "f3588fd4-1352-4d2b-9443-dba2a9003b6d"
+    "id": "49aabf48-0891-444f-b38a-0e876125e981"
   },
   {
     "name": "Roti",
@@ -141,7 +141,7 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "a92c840b-aff4-4648-a660-6199b548fb09"
+    "id": "ce204cc2-59ad-4130-89d2-b486908d4bf8"
   },
   {
     "name": "Nimbu Paani",
@@ -157,7 +157,7 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "acda294c-4737-4d8c-af06-1adcaf2267a2"
+    "id": "1e660577-12ce-49ee-b7d3-1a20d51e8b56"
   },
   {
     "name": "Bhel",
@@ -173,7 +173,7 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "9f0fab43-1d3d-4f28-a0ad-8838c0eb849e"
+    "id": "d6b3ad3c-6c89-4b29-b99c-93ce5f0d5b01"
   },
   {
     "name": "Egg Curry",
@@ -189,7 +189,7 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "0a8d6e73-b20d-47d7-89c4-245400df3780"
+    "id": "b67e10d6-3364-4803-bf4d-b3de631a0361"
   },
   {
     "name": "Paneer Butter Masala",
@@ -205,7 +205,7 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "ffcb05e4-1e19-4592-b8df-6f5b249dcc64"
+    "id": "0027748d-9b6e-43be-bc8f-b8e04c8d965d"
   },
   {
     "name": "Arhar Dal",
@@ -221,7 +221,7 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "ff75f28c-e0e4-4633-bf1a-d1933eb92343"
+    "id": "862a3ddc-1f10-4f8b-b3df-a915c8e54f7e"
   },
   {
     "name": "Basmati Rice",
@@ -237,7 +237,7 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "1c09474a-40fa-4f9e-ab02-dcf231d3c870"
+    "id": "eda78f41-489b-4574-99b2-9c2d01ecd18c"
   },
   {
     "name": "Roti",
@@ -253,7 +253,7 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "d3b6b04b-1686-4f41-8cdc-0798fb7d92a1"
+    "id": "b2331e9d-7c4e-4747-a7d8-be8e96dc4346"
   },
   {
     "name": "Rabdi",
@@ -269,6 +269,6 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "93ed2093-8300-4920-bb00-b399a149c376"
+    "id": "d695f049-4c7d-468f-8f52-3545eff37d06"
   }
 ]

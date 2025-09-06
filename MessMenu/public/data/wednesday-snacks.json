@@ -13,7 +13,7 @@
     "dayOfWeek": "wednesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "93a74f8c-089b-4525-a44f-49ea7cbb0ce9"
+    "id": "3c35a6ae-4062-44ab-a54e-7ba760f2aff1"
   },
   {
     "name": "Sev",
@@ -29,7 +29,7 @@
     "dayOfWeek": "wednesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "71820f24-30c7-43a0-91e4-970a68e62549"
+    "id": "20ff476e-1e55-4731-b3d8-3214ff3a273c"
   },
   {
     "name": "Dahi",
@@ -45,7 +45,7 @@
     "dayOfWeek": "wednesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "3d412844-db85-459d-a7d9-f8c78a782054"
+    "id": "5fe01aaf-6a14-4869-9128-26c916c21509"
   },
   {
     "name": "Imli Chutney",
@@ -61,7 +61,7 @@
     "dayOfWeek": "wednesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "149567fd-741f-4160-a85a-bea1a250ebd3"
+    "id": "60cf0b05-2447-4b48-a711-385a41a78bcd"
   },
   {
     "name": "Green Chutney",
@@ -77,6 +77,6 @@
     "dayOfWeek": "wednesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "b632f57b-be85-447a-84bc-a5c48c9e6d6b"
+    "id": "ec20c0cd-5907-46b0-9e75-2eee9bd62859"
   }
 ]

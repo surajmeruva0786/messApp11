@@ -13,7 +13,7 @@
     "dayOfWeek": "sunday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "70493b40-6217-4d2b-ac8d-36545dc7c6d3"
+    "id": "05e6237d-e874-45ab-b68d-d803c494b6dd"
   },
   {
     "name": "Veg Biryani",
@@ -29,7 +29,7 @@
     "dayOfWeek": "sunday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "23c0f7da-cf2a-4dc4-9fe0-4dc950612ffb"
+    "id": "b47ce6d6-f39a-44ac-bca6-e20274a1e3f7"
   },
   {
     "name": "Curry",
@@ -45,7 +45,7 @@
     "dayOfWeek": "sunday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "673411d6-0994-424b-a056-6045d1dbe561"
+    "id": "08f593f4-5404-4077-9330-94db35f9f075"
   },
   {
     "name": "Raita",
@@ -61,7 +61,7 @@
     "dayOfWeek": "sunday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "98b2a565-85ce-4b2e-9aaa-e7f0a73aa03f"
+    "id": "8be68e6b-ab7d-45f0-93d0-5749dfefb7b9"
   },
   {
     "name": "Jalebi",
@@ -77,6 +77,6 @@
     "dayOfWeek": "sunday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "738b781d-ea11-4a3f-8039-5ef0bf26477e"
+    "id": "cf2bbf5d-88e5-4b56-8aa5-211bc13c0f28"
   }
 ]

@@ -13,7 +13,7 @@
     "dayOfWeek": "wednesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "5ef6c7a8-db3e-41c6-acc4-650f84c9b453"
+    "id": "8ebb55a1-ecdb-4620-84b1-109f2a50bc9d"
   },
   {
     "name": "Paneer Kadhai/Matar Paneer",
@@ -29,7 +29,7 @@
     "dayOfWeek": "wednesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "df1b3484-e883-4b0e-977e-0b5e12a0b253"
+    "id": "f5877738-128a-4abe-a0b1-678ec22d82af"
   },
   {
     "name": "Arhar Dal",
@@ -45,7 +45,7 @@
     "dayOfWeek": "wednesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "ce181edb-37a9-4152-bf33-af100349b82a"
+    "id": "f4a47075-b639-4918-b687-56831a7d9bac"
   },
   {
     "name": "Plain Rice",
@@ -61,7 +61,7 @@
     "dayOfWeek": "wednesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "b03392fd-7ce6-451e-8b46-0420fc753402"
+    "id": "1d55a363-286b-4006-b562-4f10ebd292a3"
   },
   {
     "name": "Roti",
@@ -77,7 +77,7 @@
     "dayOfWeek": "wednesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "e3d1d187-65bd-41e4-827f-1ed012e2699f"
+    "id": "6b4e8d83-22c2-4e40-ba8c-1b04fe1f5430"
   },
   {
     "name": "Moong Dal Halwa",
@@ -93,6 +93,6 @@
     "dayOfWeek": "wednesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "8c9450cd-bb67-41fa-a1f0-74ab37dabebc"
+    "id": "4192ba9d-1043-4321-a9fb-7cb0210e3e47"
   }
 ]

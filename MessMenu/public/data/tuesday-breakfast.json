@@ -13,7 +13,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "14cf2824-fc9d-4a35-8c09-3565b8e1885c"
+    "id": "f6a853a7-fccb-425b-ac87-e9353a2fee80"
   },
   {
     "name": "Sambhar",
@@ -29,7 +29,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "47cb4284-395f-4c36-bc4b-73556622b277"
+    "id": "52611baa-fae5-4290-bfe5-19e72086d928"
   },
   {
     "name": "Naryal Chutney",
@@ -45,7 +45,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "b87cb0f8-3b53-4e7c-9d89-1ec052e0d088"
+    "id": "624dfc86-e373-42cb-90e9-3a8067321cba"
   },
   {
     "name": "Sprouts",
@@ -61,6 +61,6 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "1a5535a6-40fa-4e62-9b93-11c887397fc3"
+    "id": "80d9f14b-1d8f-4399-9ff1-2b9738b7b790"
   }
 ]

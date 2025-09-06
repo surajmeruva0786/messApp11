@@ -13,7 +13,7 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "0a8d6e73-b20d-47d7-89c4-245400df3780"
+    "id": "b67e10d6-3364-4803-bf4d-b3de631a0361"
   },
   {
     "name": "Paneer Butter Masala",
@@ -29,7 +29,7 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "ffcb05e4-1e19-4592-b8df-6f5b249dcc64"
+    "id": "0027748d-9b6e-43be-bc8f-b8e04c8d965d"
   },
   {
     "name": "Arhar Dal",
@@ -45,7 +45,7 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "ff75f28c-e0e4-4633-bf1a-d1933eb92343"
+    "id": "862a3ddc-1f10-4f8b-b3df-a915c8e54f7e"
   },
   {
     "name": "Basmati Rice",
@@ -61,7 +61,7 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "1c09474a-40fa-4f9e-ab02-dcf231d3c870"
+    "id": "eda78f41-489b-4574-99b2-9c2d01ecd18c"
   },
   {
     "name": "Roti",
@@ -77,7 +77,7 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "d3b6b04b-1686-4f41-8cdc-0798fb7d92a1"
+    "id": "b2331e9d-7c4e-4747-a7d8-be8e96dc4346"
   },
   {
     "name": "Rabdi",
@@ -93,6 +93,6 @@
     "dayOfWeek": "friday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "93ed2093-8300-4920-bb00-b399a149c376"
+    "id": "d695f049-4c7d-468f-8f52-3545eff37d06"
   }
 ]

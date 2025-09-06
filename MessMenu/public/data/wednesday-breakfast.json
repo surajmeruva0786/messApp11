@@ -13,7 +13,7 @@
     "dayOfWeek": "wednesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "282fb79a-566e-47eb-8145-f45fc5475232"
+    "id": "f28d932b-aa00-4524-9e9a-828df1ee981c"
   },
   {
     "name": "Matar Chola",
@@ -29,7 +29,7 @@
     "dayOfWeek": "wednesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "830efb27-8d56-424c-84ba-a9219f811b33"
+    "id": "ec60cdea-83da-406a-9696-dd0a64e7961a"
   },
   {
     "name": "Onion + Lemon",
@@ -45,7 +45,7 @@
     "dayOfWeek": "wednesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "e7b5135f-94f7-45e1-928c-ccf38e6850fc"
+    "id": "48c05e40-611e-497c-be04-8bedf58ac42f"
   },
   {
     "name": "Omelette/Fruit",
@@ -61,6 +61,6 @@
     "dayOfWeek": "wednesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "05825891-d591-45a1-98b2-b9ed53318d39"
+    "id": "ae16dd48-758b-417f-8e27-4d08ff6a27ba"
   }
 ]

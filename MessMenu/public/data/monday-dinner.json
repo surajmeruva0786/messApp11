@@ -13,7 +13,7 @@
     "dayOfWeek": "monday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "5c9aa72c-02bd-4f63-8f37-b3f8dafe26e1"
+    "id": "d27fdede-2be8-4bdf-bf1c-8727fc6fb0a1"
   },
   {
     "name": "Chilli Chicken/Chilli Paneer (160gm)",
@@ -29,7 +29,7 @@
     "dayOfWeek": "monday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "a0314a9c-7aba-43cd-961f-72e9cc6ae81a"
+    "id": "1274aab0-c3e7-452c-b2d8-c1620c587260"
   },
   {
     "name": "Dal",
@@ -45,7 +45,7 @@
     "dayOfWeek": "monday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "fff3fe62-25df-44a5-90b2-a5190ab5cee3"
+    "id": "92f05ca6-f022-4e13-ad7f-903e824cf27b"
   },
   {
     "name": "Plain Rice",
@@ -61,7 +61,7 @@
     "dayOfWeek": "monday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "9c31c765-47d8-40ff-83f4-1623eb30eb7a"
+    "id": "bf126985-cf9c-4b4e-b8d8-c9a164319747"
   },
   {
     "name": "Roti",
@@ -77,7 +77,7 @@
     "dayOfWeek": "monday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "0e697baa-486c-4952-9004-64b4bbeb5135"
+    "id": "1173a0e5-36b1-424d-8137-c58b048df67a"
   },
   {
     "name": "Gulab Jamun (2 big pieces)",
@@ -93,6 +93,6 @@
     "dayOfWeek": "monday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "afa7464a-ce0c-4ca3-b0c9-68bde923d2b2"
+    "id": "08a7d6db-992c-4d9d-ba17-a1baa6ee1f04"
   }
 ]

@@ -13,7 +13,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "c920a2d0-8d43-488d-b58d-3503f666280e"
+    "id": "fafcbeea-142d-4fbc-9cf4-dd031a66ea08"
   },
   {
     "name": "Sambar",
@@ -29,7 +29,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "bfef8192-ecfa-4f87-b22a-cf23c0ed11b8"
+    "id": "960e9d1c-5213-44a0-b10c-e80f44a2eb30"
   },
   {
     "name": "Chutney",
@@ -45,7 +45,7 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "93b8a647-45a3-4fe4-ac5f-c22398416d03"
+    "id": "5e6e7cd3-01c4-4cdb-bd20-002e68916d15"
   },
   {
     "name": "Sprouts",
@@ -61,6 +61,6 @@
     "dayOfWeek": "thursday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "6c4c8111-b98d-4593-8ee6-d4df80702115"
+    "id": "2b0d77cc-30c1-4ed0-9cbe-ea63dc204d2d"
   }
 ]

@@ -13,7 +13,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "9be11f9e-cc14-4eb0-9404-86bdf8f8b637"
+    "id": "10295db9-6054-4360-80f9-0fdf14b16b73"
   },
   {
     "name": "Soya Chunks",
@@ -29,7 +29,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "8e0e49db-06bd-4217-b095-cfdb1670b449"
+    "id": "0496c2c3-ae63-480a-b168-3b8bf61017e2"
   },
   {
     "name": "Arhar Dal",
@@ -45,7 +45,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "df10cb0d-b381-46a4-a7de-8efb20f45d06"
+    "id": "e3c6f38d-cc2a-4d1b-be5f-afb263d46a85"
   },
   {
     "name": "Plain Rice",
@@ -61,7 +61,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "ee4baebc-257e-4a29-8e18-d7be6cd95a31"
+    "id": "95d5b36e-e1bd-4176-84cb-c7f0bbd20e19"
   },
   {
     "name": "Roti",
@@ -77,7 +77,7 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "70981c6a-f798-4361-9825-57b9afa3296e"
+    "id": "86cdb8d9-ec5c-411c-ba9a-3c02769d85a8"
   },
   {
     "name": "Kheer",
@@ -93,6 +93,6 @@
     "dayOfWeek": "tuesday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "41c78f92-de2b-4ea8-a863-6424d296cdae"
+    "id": "ed382120-8d40-4f1a-9434-787d2cfc38bf"
   }
 ]

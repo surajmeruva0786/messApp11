@@ -13,7 +13,7 @@
     "dayOfWeek": "saturday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "f66bc66d-5173-4fe5-b592-a36f6730ba76"
+    "id": "76bb4a25-4bf2-46fa-bb6d-96e365686b2a"
   },
   {
     "name": "Red Chutney",
@@ -29,7 +29,7 @@
     "dayOfWeek": "saturday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "e27cb853-b4f6-4868-aa5e-043e92b2ef29"
+    "id": "13b185e9-5c20-4020-bd9a-86a77ff1d7b3"
   },
   {
     "name": "Tomato Sauce",
@@ -45,6 +45,6 @@
     "dayOfWeek": "saturday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "c0a2d76f-200a-4409-8b92-1f896bd279db"
+    "id": "e61016f5-23b0-47b8-8129-7f4a32db8c31"
   }
 ]

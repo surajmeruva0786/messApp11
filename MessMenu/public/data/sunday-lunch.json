@@ -13,7 +13,7 @@
     "dayOfWeek": "sunday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "0f9ec0a0-8aa4-45d4-82d1-3bf32ac9a5bf"
+    "id": "5de58163-b1ce-4160-9fbd-f699ce0a2ab4"
   },
   {
     "name": "Cabbage",
@@ -29,7 +29,7 @@
     "dayOfWeek": "sunday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "ac5fd516-26b7-4dd5-86b4-80ffc1b83972"
+    "id": "999ca342-2f85-44ff-acec-43a2a9574ff2"
   },
   {
     "name": "Tadka Arhar Dal",
@@ -45,7 +45,7 @@
     "dayOfWeek": "sunday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "9408324b-61a7-4494-acb6-997a8a254c0d"
+    "id": "c9a240bb-486f-4f39-a525-ee16caa90471"
   },
   {
     "name": "Plain Rice",
@@ -61,7 +61,7 @@
     "dayOfWeek": "sunday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "8ef9d23c-1e03-4a32-a16f-9b30195f6f7b"
+    "id": "a6482857-6f36-4811-adf4-2362b3bff725"
   },
   {
     "name": "Roti",
@@ -77,7 +77,7 @@
     "dayOfWeek": "sunday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "6d6bef8f-1c10-4186-8b8d-2073aefcb2bb"
+    "id": "a8b760fc-63b1-40ed-b106-76b51cd936fd"
   },
   {
     "name": "Mango Juice",
@@ -93,6 +93,6 @@
     "dayOfWeek": "sunday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "ca1a43d7-546e-47a5-ae41-e408a68aeb60"
+    "id": "79c81620-1cc9-4004-8fc1-be42725ffea0"
   }
 ]

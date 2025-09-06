@@ -13,7 +13,7 @@
     "dayOfWeek": "monday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "685bebd9-b673-418b-8a7c-5ad2a84996b8"
+    "id": "7a5a7e94-001f-4787-97bb-d613b70ae35d"
   },
   {
     "name": "Chutney",
@@ -29,7 +29,7 @@
     "dayOfWeek": "monday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "c82b1042-f526-43e8-a7bd-05430d3a9bcf"
+    "id": "bb31fae1-fcaa-4d20-bf6a-7f044e35fd88"
   },
   {
     "name": "Plain Curd",
@@ -45,7 +45,7 @@
     "dayOfWeek": "monday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "58aad43f-cb1e-47f3-98cd-81a3a042365c"
+    "id": "6dc73723-6efb-410a-828d-e50708901d40"
   },
   {
     "name": "Omelette or Fruit",
@@ -61,6 +61,6 @@
     "dayOfWeek": "monday",
     "ingredients": "[]",
     "allergens": "[]",
-    "id": "b51950df-cbb1-436f-9c59-143f8606b4ae"
+    "id": "634b7b86-ae47-4482-a37e-b5a381deaf83"
   }
 ]
