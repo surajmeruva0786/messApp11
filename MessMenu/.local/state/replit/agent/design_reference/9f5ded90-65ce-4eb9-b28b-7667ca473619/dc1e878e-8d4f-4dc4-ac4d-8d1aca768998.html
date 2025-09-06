@@ -1,0 +1,547 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mess Menu - Hostel Food App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                borderRadius: {
+                    lg: "var(--radius)",
+                    md: "calc(var(--radius) - 2px)",
+                    sm: "calc(var(--radius) - 4px)",
+                },
+                colors: {
+                    background: "var(--background)",
+                    foreground: "var(--foreground)",
+                    card: {
+                        DEFAULT: "var(--card)",
+                        foreground: "var(--card-foreground)",
+                    },
+                    popover: {
+                        DEFAULT: "var(--popover)",
+                        foreground: "var(--popover-foreground)",
+                    },
+                    primary: {
+                        DEFAULT: "var(--primary)",
+                        foreground: "var(--primary-foreground)",
+                    },
+                    secondary: {
+                        DEFAULT: "var(--secondary)",
+                        foreground: "var(--secondary-foreground)",
+                    },
+                    muted: {
+                        DEFAULT: "var(--muted)",
+                        foreground: "var(--muted-foreground)",
+                    },
+                    accent: {
+                        DEFAULT: "var(--accent)",
+                        foreground: "var(--accent-foreground)",
+                    },
+                    destructive: {
+                        DEFAULT: "var(--destructive)",
+                        foreground: "var(--destructive-foreground)",
+                    },
+                    border: "var(--border)",
+                    input: "var(--input)",
+                    ring: "var(--ring)",
+                }
+            },
+            fontFamily: {
+                sans: ['Inter', 'system-ui', 'sans-serif'],
+            }
+        }
+    };
+    </script>
+    <style>
+        :root {
+            --background: hsl(210 40% 98%);
+            --foreground: hsl(222 84% 4.9%);
+            --card: hsl(0 0% 100%);
+            --card-foreground: hsl(222 84% 4.9%);
+            --popover: hsl(0 0% 100%);
+            --popover-foreground: hsl(222 84% 4.9%);
+            --primary: hsl(217 91% 60%);
+            --primary-foreground: hsl(0 0% 98%);
+            --secondary: hsl(158 64% 52%);
+            --secondary-foreground: hsl(0 0% 98%);
+            --muted: hsl(210 40% 96%);
+            --muted-foreground: hsl(215 16% 47%);
+            --accent: hsl(32 95% 44%);
+            --accent-foreground: hsl(0 0% 98%);
+            --destructive: hsl(0 84% 60%);
+            --destructive-foreground: hsl(0 0% 98%);
+            --border: hsl(214 32% 91%);
+            --input: hsl(214 32% 91%);
+            --ring: hsl(217 91% 60%);
+            --radius: 0.75rem;
+        }
+
+        .dark {
+            --background: hsl(222 84% 4.9%);
+            --foreground: hsl(210 40% 98%);
+            --card: hsl(222 84% 4.9%);
+            --card-foreground: hsl(210 40% 98%);
+            --popover: hsl(222 84% 4.9%);
+            --popover-foreground: hsl(210 40% 98%);
+            --primary: hsl(217 91% 60%);
+            --primary-foreground: hsl(222 84% 4.9%);
+            --secondary: hsl(158 64% 52%);
+            --secondary-foreground: hsl(222 84% 4.9%);
+            --muted: hsl(217 32% 17%);
+            --muted-foreground: hsl(215 20% 65%);
+            --accent: hsl(32 95% 44%);
+            --accent-foreground: hsl(222 84% 4.9%);
+            --destructive: hsl(0 62% 30%);
+            --destructive-foreground: hsl(210 40% 98%);
+            --border: hsl(217 32% 17%);
+            --input: hsl(217 32% 17%);
+            --ring: hsl(224 71% 4%);
+        }
+
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+        }
+
+        .meal-card {
+            transition: all 0.2s ease-in-out;
+        }
+
+        .meal-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+
+        .time-indicator {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .fade-in {
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        .modal-backdrop {
+            backdrop-filter: blur(4px);
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="bg-background text-foreground min-h-screen">
+    <!-- @COMPONENT: AppHeader -->
+    <header class="sticky top-0 z-50 bg-card border-b border-border shadow-sm">
+        <div class="max-w-md mx-auto px-4 py-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <div class="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
+                        <i class="fas fa-utensils text-primary-foreground text-sm"></i>
+                    </div>
+                    <div>
+                        <h1 class="font-semibold text-lg text-foreground">Mess Menu</h1>
+                        <p class="text-xs text-muted-foreground" data-bind="currentTime">2:45 PM</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <button class="p-2 rounded-lg hover:bg-muted transition-colors" data-event="click:toggleSearch">
+                        <i class="fas fa-search text-muted-foreground"></i>
+                    </button>
+                    <button class="p-2 rounded-lg hover:bg-muted transition-colors" data-event="click:toggleSettings">
+                        <i class="fas fa-cog text-muted-foreground"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- @END_COMPONENT: AppHeader -->
+
+    <!-- @COMPONENT: TimeAwareAlert -->
+    <div class="max-w-md mx-auto px-4 py-3">
+        <div class="bg-primary/10 border border-primary/20 rounded-lg p-3 flex items-center space-x-3">
+            <div class="w-2 h-2 bg-primary rounded-full time-indicator"></div>
+            <div class="flex-1">
+                <p class="text-sm font-medium text-primary">Current Meal Time: Lunch</p>
+                <p class="text-xs text-muted-foreground">Dinner starts at 7:00 PM</p>
+            </div>
+        </div>
+    </div>
+    <!-- @END_COMPONENT: TimeAwareAlert -->
+
+    <main class="max-w-md mx-auto px-4 pb-20">
+        <!-- @COMPONENT: MealTimeSelector -->
+        <div class="mb-6">
+            <div class="flex space-x-1 bg-muted rounded-lg p-1">
+                <button class="flex-1 py-2 px-3 rounded-md text-sm font-medium transition-all bg-card text-foreground shadow-sm" data-event="click:selectMeal:breakfast">
+                    <i class="fas fa-sun text-accent mr-2"></i>
+                    Breakfast
+                </button>
+                <button class="flex-1 py-2 px-3 rounded-md text-sm font-medium transition-all text-muted-foreground hover:text-foreground" data-event="click:selectMeal:lunch">
+                    <i class="fas fa-sun text-secondary mr-2"></i>
+                    Lunch
+                </button>
+                <button class="flex-1 py-2 px-3 rounded-md text-sm font-medium transition-all text-muted-foreground hover:text-foreground" data-event="click:selectMeal:dinner">
+                    <i class="fas fa-moon text-primary mr-2"></i>
+                    Dinner
+                </button>
+            </div>
+        </div>
+        <!-- @END_COMPONENT: MealTimeSelector -->
+
+        <!-- @COMPONENT: DateNavigation -->
+        <div class="mb-6">
+            <div class="flex items-center justify-between mb-4">
+                <button class="p-2 rounded-lg hover:bg-muted transition-colors" data-event="click:previousDay">
+                    <i class="fas fa-chevron-left text-muted-foreground"></i>
+                </button>
+                <div class="text-center">
+                    <h2 class="font-semibold text-lg" data-bind="selectedDate">Today, Dec 15</h2>
+                    <p class="text-sm text-muted-foreground">Friday</p>
+                </div>
+                <button class="p-2 rounded-lg hover:bg-muted transition-colors" data-event="click:nextDay">
+                    <i class="fas fa-chevron-right text-muted-foreground"></i>
+                </button>
+            </div>
+        </div>
+        <!-- @END_COMPONENT: DateNavigation -->
+
+        <!-- @COMPONENT: MenuItems -->
+        <div class="space-y-4 fade-in">
+            <h3 class="font-semibold text-lg mb-4 flex items-center">
+                <i class="fas fa-sun text-accent mr-2"></i>
+                Breakfast Menu
+                <span class="ml-2 px-2 py-1 bg-accent/10 text-accent text-xs rounded-full">6:30 AM - 10:00 AM</span>
+            </h3>
+
+            <!-- @MAP: menuItems.map(item => ( -->
+            <div class="meal-card bg-card rounded-lg shadow-sm border border-border overflow-hidden cursor-pointer" data-event="click:showIngredients" data-mock="true">
+                <!-- A plate of golden crispy dosa with coconut chutney and sambar -->
+                <img src="https://pixabay.com/get/gbdcca5a3c99b0c9dfd779ff5036e580584d12609371152df31bd7da9d4b1029d27f00737be48641e2a51d1808c3cc62c847c65795c58029c13856d79eefe9a3c_1280.jpg" alt="Masala Dosa" class="w-full h-32 object-cover" />
+                <div class="p-4">
+                    <div class="flex items-center justify-between mb-2">
+                        <h4 class="font-semibold text-foreground">Masala Dosa</h4>
+                        <div class="flex items-center space-x-2">
+                            <span class="px-2 py-1 bg-secondary/10 text-secondary text-xs rounded-full">Veg</span>
+                            <i class="fas fa-heart text-destructive text-sm"></i>
+                        </div>
+                    </div>
+                    <p class="text-sm text-muted-foreground mb-2">Crispy fermented crepe with spiced potato filling</p>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center space-x-4 text-xs text-muted-foreground">
+                            <span><i class="fas fa-fire mr-1"></i>280 kcal</span>
+                            <span><i class="fas fa-clock mr-1"></i>Available</span>
+                        </div>
+                        <button class="text-primary text-sm font-medium">View Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="meal-card bg-card rounded-lg shadow-sm border border-border overflow-hidden cursor-pointer" data-event="click:showIngredients" data-mock="true">
+                <!-- A steaming cup of masala chai tea with aromatic spices -->
+                <img src="https://pixabay.com/get/g59a79b5ffa2cc9cc45e671048fbb9a67ef52e1b02df8d8dc8805519db2992e17eff0099227cad6668d7a7ad956e5d8ea283b3c1bbd081ca76ed58eebf57b1f67_1280.jpg" alt="Masala Chai" class="w-full h-32 object-cover" />
+                <div class="p-4">
+                    <div class="flex items-center justify-between mb-2">
+                        <h4 class="font-semibold text-foreground">Masala Chai</h4>
+                        <div class="flex items-center space-x-2">
+                            <span class="px-2 py-1 bg-secondary/10 text-secondary text-xs rounded-full">Veg</span>
+                        </div>
+                    </div>
+                    <p class="text-sm text-muted-foreground mb-2">Spiced tea with cardamom, ginger, and cinnamon</p>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center space-x-4 text-xs text-muted-foreground">
+                            <span><i class="fas fa-fire mr-1"></i>45 kcal</span>
+                            <span><i class="fas fa-clock mr-1"></i>Available</span>
+                        </div>
+                        <button class="text-primary text-sm font-medium">View Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="meal-card bg-card rounded-lg shadow-sm border border-border overflow-hidden cursor-pointer" data-event="click:showIngredients" data-mock="true">
+                <!-- A bowl of fluffy scrambled eggs with herbs and vegetables -->
+                <img src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=300" alt="Scrambled Eggs" class="w-full h-32 object-cover" />
+                <div class="p-4">
+                    <div class="flex items-center justify-between mb-2">
+                        <h4 class="font-semibold text-foreground">Scrambled Eggs</h4>
+                        <div class="flex items-center space-x-2">
+                            <span class="px-2 py-1 bg-orange-100 text-orange-700 text-xs rounded-full">Non-Veg</span>
+                        </div>
+                    </div>
+                    <p class="text-sm text-muted-foreground mb-2">Fluffy eggs with onions, tomatoes, and fresh herbs</p>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center space-x-4 text-xs text-muted-foreground">
+                            <span><i class="fas fa-fire mr-1"></i>180 kcal</span>
+                            <span><i class="fas fa-exclamation-triangle mr-1 text-accent"></i>Limited</span>
+                        </div>
+                        <button class="text-primary text-sm font-medium">View Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="meal-card bg-card rounded-lg shadow-sm border border-border overflow-hidden cursor-pointer" data-event="click:showIngredients" data-mock="true">
+                <!-- Fresh seasonal fruits arranged beautifully on a plate -->
+                <img src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=300" alt="Fresh Fruits" class="w-full h-32 object-cover" />
+                <div class="p-4">
+                    <div class="flex items-center justify-between mb-2">
+                        <h4 class="font-semibold text-foreground">Seasonal Fruits</h4>
+                        <div class="flex items-center space-x-2">
+                            <span class="px-2 py-1 bg-secondary/10 text-secondary text-xs rounded-full">Veg</span>
+                        </div>
+                    </div>
+                    <p class="text-sm text-muted-foreground mb-2">Fresh seasonal fruits - banana, apple, orange</p>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center space-x-4 text-xs text-muted-foreground">
+                            <span><i class="fas fa-fire mr-1"></i>85 kcal</span>
+                            <span><i class="fas fa-clock mr-1"></i>Available</span>
+                        </div>
+                        <button class="text-primary text-sm font-medium">View Details</button>
+                    </div>
+                </div>
+            </div>
+            <!-- @END_MAP )) -->
+        </div>
+        <!-- @END_COMPONENT: MenuItems -->
+
+        <!-- Next Meal Preview -->
+        <div class="mt-8 bg-muted/30 rounded-lg p-4 border border-border">
+            <h4 class="font-semibold text-sm text-muted-foreground mb-3 flex items-center">
+                <i class="fas fa-clock mr-2"></i>
+                Next: Lunch (12:30 PM - 3:00 PM)
+            </h4>
+            <div class="flex space-x-3 overflow-x-auto">
+                <div class="flex-shrink-0 bg-card rounded-lg p-3 border border-border w-32">
+                    <!-- A plate of chicken biryani with fragrant rice and spices -->
+                    <img src="https://pixabay.com/get/g72ba1e72b3a500b9655f9ec6d951a68525ee9b1ea0afdde23163f1454e87316a86209f40036c421772c629e78bcc2b3a59287788fd3a95ebabf3adb19857fe6a_1280.jpg" alt="Chicken Biryani" class="w-full h-16 object-cover rounded mb-2" />
+                    <p class="text-xs font-medium">Chicken Biryani</p>
+                </div>
+                <div class="flex-shrink-0 bg-card rounded-lg p-3 border border-border w-32">
+                    <!-- A bowl of creamy dal curry with lentils -->
+                    <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200" alt="Dal Tadka" class="w-full h-16 object-cover rounded mb-2" />
+                    <p class="text-xs font-medium">Dal Tadka</p>
+                </div>
+                <div class="flex-shrink-0 bg-card rounded-lg p-3 border border-border w-32">
+                    <!-- Fresh green salad with vegetables and herbs -->
+                    <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&h=200" alt="Green Salad" class="w-full h-16 object-cover rounded mb-2" />
+                    <p class="text-xs font-medium">Green Salad</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- @COMPONENT: BottomNavigation -->
+    <nav class="fixed bottom-0 left-0 right-0 bg-card border-t border-border z-40">
+        <div class="max-w-md mx-auto px-4 py-2">
+            <div class="flex items-center justify-around">
+                <button class="flex flex-col items-center space-y-1 py-2 px-3 text-primary" data-event="click:navigateHome">
+                    <i class="fas fa-home text-lg"></i>
+                    <span class="text-xs font-medium">Home</span>
+                </button>
+                <button class="flex flex-col items-center space-y-1 py-2 px-3 text-muted-foreground hover:text-foreground transition-colors" data-event="click:navigateCalendar">
+                    <i class="fas fa-calendar text-lg"></i>
+                    <span class="text-xs">Calendar</span>
+                </button>
+                <button class="flex flex-col items-center space-y-1 py-2 px-3 text-muted-foreground hover:text-foreground transition-colors" data-event="click:navigateFavorites">
+                    <i class="fas fa-heart text-lg"></i>
+                    <span class="text-xs">Favorites</span>
+                </button>
+                <button class="flex flex-col items-center space-y-1 py-2 px-3 text-muted-foreground hover:text-foreground transition-colors" data-event="click:navigateProfile">
+                    <i class="fas fa-user text-lg"></i>
+                    <span class="text-xs">Profile</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- @END_COMPONENT: BottomNavigation -->
+
+    <!-- @COMPONENT: IngredientModal -->
+    <div id="ingredientModal" class="fixed inset-0 z-50 hidden">
+        <div class="modal-backdrop absolute inset-0 bg-black/50" data-event="click:closeModal"></div>
+        <div class="absolute inset-x-4 top-20 bg-card rounded-lg shadow-xl max-h-[80vh] overflow-hidden">
+            <div class="p-4 border-b border-border">
+                <div class="flex items-center justify-between">
+                    <h3 class="font-semibold text-lg" data-bind="selectedFood.name">Masala Dosa</h3>
+                    <button class="p-2 hover:bg-muted rounded-lg transition-colors" data-event="click:closeModal">
+                        <i class="fas fa-times text-muted-foreground"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="p-4 overflow-y-auto max-h-96">
+                <!-- A close-up view of masala dosa ingredients and preparation -->
+                <img src="https://pixabay.com/get/g596b75038059e9953090eadfcc942e9b87044236eb4f114ea6837cb937491fb28d4b69805d4e0353715031fec1390c117de99e9444e41aa7300c6a31517a9ea9_1280.jpg" alt="Masala Dosa Details" class="w-full h-40 object-cover rounded-lg mb-4" />
+                
+                <div class="space-y-4">
+                    <div>
+                        <h4 class="font-semibold mb-2 flex items-center">
+                            <i class="fas fa-list-ul text-primary mr-2"></i>
+                            Ingredients
+                        </h4>
+                        <div class="grid grid-cols-2 gap-2">
+                            <div class="flex items-center space-x-2 text-sm" data-mock="true">
+                                <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                                <span>Rice</span>
+                            </div>
+                            <div class="flex items-center space-x-2 text-sm" data-mock="true">
+                                <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                                <span>Black Gram Dal</span>
+                            </div>
+                            <div class="flex items-center space-x-2 text-sm" data-mock="true">
+                                <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                                <span>Potatoes</span>
+                            </div>
+                            <div class="flex items-center space-x-2 text-sm" data-mock="true">
+                                <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                                <span>Onions</span>
+                            </div>
+                            <div class="flex items-center space-x-2 text-sm" data-mock="true">
+                                <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                                <span>Turmeric</span>
+                            </div>
+                            <div class="flex items-center space-x-2 text-sm" data-mock="true">
+                                <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                                <span>Mustard Seeds</span>
+                            </div>
+                            <div class="flex items-center space-x-2 text-sm" data-mock="true">
+                                <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                                <span>Curry Leaves</span>
+                            </div>
+                            <div class="flex items-center space-x-2 text-sm" data-mock="true">
+                                <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                                <span>Green Chili</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 class="font-semibold mb-2 flex items-center">
+                            <i class="fas fa-chart-pie text-accent mr-2"></i>
+                            Nutritional Information
+                        </h4>
+                        <div class="grid grid-cols-2 gap-4 text-sm">
+                            <div class="bg-muted/50 rounded-lg p-3">
+                                <p class="text-muted-foreground">Calories</p>
+                                <p class="font-semibold text-lg">280 kcal</p>
+                            </div>
+                            <div class="bg-muted/50 rounded-lg p-3">
+                                <p class="text-muted-foreground">Protein</p>
+                                <p class="font-semibold text-lg">8g</p>
+                            </div>
+                            <div class="bg-muted/50 rounded-lg p-3">
+                                <p class="text-muted-foreground">Carbs</p>
+                                <p class="font-semibold text-lg">45g</p>
+                            </div>
+                            <div class="bg-muted/50 rounded-lg p-3">
+                                <p class="text-muted-foreground">Fat</p>
+                                <p class="font-semibold text-lg">6g</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 class="font-semibold mb-2 flex items-center">
+                            <i class="fas fa-exclamation-circle text-destructive mr-2"></i>
+                            Allergens & Dietary Info
+                        </h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2 py-1 bg-secondary/10 text-secondary text-xs rounded-full">Gluten-Free</span>
+                            <span class="px-2 py-1 bg-secondary/10 text-secondary text-xs rounded-full">Vegan</span>
+                            <span class="px-2 py-1 bg-accent/10 text-accent text-xs rounded-full">Contains: Oil</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 border-t border-border">
+                <div class="flex space-x-3">
+                    <button class="flex-1 bg-primary text-primary-foreground py-2 px-4 rounded-lg font-medium" data-event="click:addToFavorites">
+                        <i class="fas fa-heart mr-2"></i>
+                        Add to Favorites
+                    </button>
+                    <button class="px-4 py-2 border border-border rounded-lg text-muted-foreground hover:text-foreground transition-colors" data-event="click:shareFood">
+                        <i class="fas fa-share-alt"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- @END_COMPONENT: IngredientModal -->
+
+    <script>
+        (function() {
+            // TODO: Implement time-based meal switching logic
+            // TODO: Implement navigation between days and meal times
+            // TODO: Implement search and filter functionality
+            // TODO: Connect to backend API for real menu data
+            
+            function updateCurrentTime() {
+                const now = new Date();
+                const timeString = now.toLocaleTimeString('en-US', { 
+                    hour: 'numeric', 
+                    minute: '2-digit' 
+                });
+                const timeElement = document.querySelector('[data-bind="currentTime"]');
+                if (timeElement) {
+                    timeElement.textContent = timeString;
+                }
+            }
+
+            function determineCurrentMeal() {
+                const now = new Date();
+                const hour = now.getHours();
+                
+                if (hour >= 6 && hour < 11) return 'breakfast';
+                if (hour >= 11 && hour < 16) return 'lunch';
+                if (hour >= 16 && hour < 22) return 'dinner';
+                return 'breakfast'; // Default
+            }
+
+            function showIngredientModal(foodItem) {
+                const modal = document.getElementById('ingredientModal');
+                modal.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+            }
+
+            function hideIngredientModal() {
+                const modal = document.getElementById('ingredientModal');
+                modal.classList.add('hidden');
+                document.body.style.overflow = 'auto';
+            }
+
+            // Event listeners
+            document.addEventListener('click', function(e) {
+                const mealCard = e.target.closest('.meal-card');
+                if (mealCard) {
+                    showIngredientModal();
+                    return;
+                }
+
+                if (e.target.closest('[data-event="click:closeModal"]') || 
+                    e.target.classList.contains('modal-backdrop')) {
+                    hideIngredientModal();
+                    return;
+                }
+            });
+
+            // Initialize
+            updateCurrentTime();
+            setInterval(updateCurrentTime, 60000); // Update every minute
+
+            // Mock data for demonstration
+            const mockMenuData = {
+                breakfast: [
+                    { name: 'Masala Dosa', calories: 280, availability: 'available' },
+                    { name: 'Masala Chai', calories: 45, availability: 'available' },
+                    { name: 'Scrambled Eggs', calories: 180, availability: 'limited' },
+                    { name: 'Seasonal Fruits', calories: 85, availability: 'available' }
+                ]
+            };
+
+            console.log('Mess Menu App initialized with time-aware meal switching');
+        })();
+    </script>
+</body>
+</html>
