@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Aloo Bhajiya",
+    "description": "Crispy potato fritters",
+    "mealType": "snacks",
+    "category": "main",
+    "isVegetarian": 1,
+    "isVegan": 1,
+    "isGlutenFree": 0,
+    "isSpicy": 1,
+    "calories": 180,
+    "protein": "4g",
+    "dayOfWeek": "monday",
+    "ingredients": "[]",
+    "allergens": "[]",
+    "id": "4bf3e472-cd7f-403e-9447-9803bdce989b"
+  },
+  {
+    "name": "Red Chutney",
+    "description": "Spicy red chutney",
+    "mealType": "snacks",
+    "category": "side",
+    "isVegetarian": 1,
+    "isVegan": 1,
+    "isGlutenFree": 1,
+    "isSpicy": 1,
+    "calories": 20,
+    "protein": "1g",
+    "dayOfWeek": "monday",
+    "ingredients": "[]",
+    "allergens": "[]",
+    "id": "95472b17-b593-4e51-9f4b-537fe2f815ba"
+  },
+  {
+    "name": "Green Chutney",
+    "description": "Fresh mint and coriander chutney",
+    "mealType": "snacks",
+    "category": "side",
+    "isVegetarian": 1,
+    "isVegan": 1,
+    "isGlutenFree": 1,
+    "isSpicy": 1,
+    "calories": 15,
+    "protein": "1g",
+    "dayOfWeek": "monday",
+    "ingredients": "[]",
+    "allergens": "[]",
+    "id": "43b1cc16-d64c-4bf3-92d1-befe89342ded"
+  }
+]

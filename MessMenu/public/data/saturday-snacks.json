@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Aloo Bonda",
+    "description": "Deep-fried potato dumplings",
+    "mealType": "snacks",
+    "category": "main",
+    "isVegetarian": 1,
+    "isVegan": 1,
+    "isGlutenFree": 0,
+    "isSpicy": 1,
+    "calories": 180,
+    "protein": "4g",
+    "dayOfWeek": "saturday",
+    "ingredients": "[]",
+    "allergens": "[]",
+    "id": "f66bc66d-5173-4fe5-b592-a36f6730ba76"
+  },
+  {
+    "name": "Red Chutney",
+    "description": "Spicy red chutney",
+    "mealType": "snacks",
+    "category": "side",
+    "isVegetarian": 1,
+    "isVegan": 1,
+    "isGlutenFree": 1,
+    "isSpicy": 1,
+    "calories": 20,
+    "protein": "1g",
+    "dayOfWeek": "saturday",
+    "ingredients": "[]",
+    "allergens": "[]",
+    "id": "e27cb853-b4f6-4868-aa5e-043e92b2ef29"
+  },
+  {
+    "name": "Tomato Sauce",
+    "description": "Tangy tomato sauce",
+    "mealType": "snacks",
+    "category": "side",
+    "isVegetarian": 1,
+    "isVegan": 1,
+    "isGlutenFree": 1,
+    "isSpicy": 0,
+    "calories": 20,
+    "protein": "0g",
+    "dayOfWeek": "saturday",
+    "ingredients": "[]",
+    "allergens": "[]",
+    "id": "c0a2d76f-200a-4409-8b92-1f896bd279db"
+  }
+]

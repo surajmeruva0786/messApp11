@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Onion Pakode",
+    "description": "Crispy onion fritters",
+    "mealType": "snacks",
+    "category": "main",
+    "isVegetarian": 1,
+    "isVegan": 1,
+    "isGlutenFree": 0,
+    "isSpicy": 1,
+    "calories": 150,
+    "protein": "4g",
+    "dayOfWeek": "tuesday",
+    "ingredients": "[]",
+    "allergens": "[]",
+    "id": "2d96b35e-bafd-4a2c-bffc-3798f5a5c6d0"
+  },
+  {
+    "name": "Red Chutney",
+    "description": "Spicy red chutney",
+    "mealType": "snacks",
+    "category": "side",
+    "isVegetarian": 1,
+    "isVegan": 1,
+    "isGlutenFree": 1,
+    "isSpicy": 1,
+    "calories": 20,
+    "protein": "1g",
+    "dayOfWeek": "tuesday",
+    "ingredients": "[]",
+    "allergens": "[]",
+    "id": "ef7efe0f-d381-4f25-b0f1-b1a0467c43cf"
+  },
+  {
+    "name": "Green Chutney",
+    "description": "Fresh mint and coriander chutney",
+    "mealType": "snacks",
+    "category": "side",
+    "isVegetarian": 1,
+    "isVegan": 1,
+    "isGlutenFree": 1,
+    "isSpicy": 1,
+    "calories": 15,
+    "protein": "1g",
+    "dayOfWeek": "tuesday",
+    "ingredients": "[]",
+    "allergens": "[]",
+    "id": "5467dfcd-f1fa-4b30-896d-ea1bf0ef61fa"
+  }
+]

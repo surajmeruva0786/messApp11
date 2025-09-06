@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Gupchup",
+    "description": "Crispy puris with flavored water",
+    "mealType": "snacks",
+    "category": "main",
+    "isVegetarian": 1,
+    "isVegan": 1,
+    "isGlutenFree": 0,
+    "isSpicy": 1,
+    "calories": 150,
+    "protein": "4g",
+    "dayOfWeek": "thursday",
+    "ingredients": "[]",
+    "allergens": "[]",
+    "id": "2ae291ad-2efa-473e-beb0-112a6972cb6f"
+  },
+  {
+    "name": "Red Chutney",
+    "description": "Spicy red chutney",
+    "mealType": "snacks",
+    "category": "side",
+    "isVegetarian": 1,
+    "isVegan": 1,
+    "isGlutenFree": 1,
+    "isSpicy": 1,
+    "calories": 20,
+    "protein": "1g",
+    "dayOfWeek": "thursday",
+    "ingredients": "[]",
+    "allergens": "[]",
+    "id": "8b748697-55ba-4fa8-9aec-d159728c6600"
+  },
+  {
+    "name": "Green Chutney",
+    "description": "Fresh mint and coriander chutney",
+    "mealType": "snacks",
+    "category": "side",
+    "isVegetarian": 1,
+    "isVegan": 1,
+    "isGlutenFree": 1,
+    "isSpicy": 1,
+    "calories": 15,
+    "protein": "1g",
+    "dayOfWeek": "thursday",
+    "ingredients": "[]",
+    "allergens": "[]",
+    "id": "4bd3d74d-97a7-496e-9dd1-34fd98765151"
+  }
+]

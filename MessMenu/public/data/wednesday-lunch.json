@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Malai Kofta",
+    "description": "Rich and creamy vegetable kofta curry",
+    "mealType": "lunch",
+    "category": "main",
+    "isVegetarian": 1,
+    "isVegan": 0,
+    "isGlutenFree": 1,
+    "isSpicy": 1,
+    "calories": 320,
+    "protein": "10g",
+    "dayOfWeek": "wednesday",
+    "ingredients": "[]",
+    "allergens": "[]",
+    "id": "193dedf1-47dc-4733-bf73-bfc732b5df7f"
+  },
+  {
+    "name": "Bhindi Masala (70% - 30% Aloo)",
+    "description": "Okra curry with potatoes",
+    "mealType": "lunch",
+    "category": "main",
+    "isVegetarian": 1,
+    "isVegan": 1,
+    "isGlutenFree": 1,
+    "isSpicy": 1,
+    "calories": 120,
+    "protein": "4g",
+    "dayOfWeek": "wednesday",
+    "ingredients": "[]",
+    "allergens": "[]",
+    "id": "6b1475d5-736e-4c03-8341-8eed26e4e9b7"
+  }
+]

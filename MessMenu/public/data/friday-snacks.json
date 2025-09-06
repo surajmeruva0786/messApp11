@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Bhel",
+    "description": "Mixed puffed rice snack",
+    "mealType": "snacks",
+    "category": "main",
+    "isVegetarian": 1,
+    "isVegan": 1,
+    "isGlutenFree": 0,
+    "isSpicy": 1,
+    "calories": 120,
+    "protein": "3g",
+    "dayOfWeek": "friday",
+    "ingredients": "[]",
+    "allergens": "[]",
+    "id": "9f0fab43-1d3d-4f28-a0ad-8838c0eb849e"
+  }
+]

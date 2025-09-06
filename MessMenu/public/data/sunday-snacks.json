@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Fried Idli",
+    "description": "Crispy fried rice cakes",
+    "mealType": "snacks",
+    "category": "main",
+    "isVegetarian": 1,
+    "isVegan": 1,
+    "isGlutenFree": 1,
+    "isSpicy": 0,
+    "calories": 200,
+    "protein": "6g",
+    "dayOfWeek": "sunday",
+    "ingredients": "[]",
+    "allergens": "[]",
+    "id": "499d22dc-cb02-41c1-99f7-58e232b21efd"
+  },
+  {
+    "name": "Spicy Chutney",
+    "description": "Hot and spicy chutney",
+    "mealType": "snacks",
+    "category": "side",
+    "isVegetarian": 1,
+    "isVegan": 1,
+    "isGlutenFree": 1,
+    "isSpicy": 1,
+    "calories": 30,
+    "protein": "1g",
+    "dayOfWeek": "sunday",
+    "ingredients": "[]",
+    "allergens": "[]",
+    "id": "ca466e76-49df-46e9-9127-cc16ca8b63c9"
+  }
+]
